@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: ubia-manual
+spec:
+  containers:
+  - image: npalenchar/ubia
+    name: ubia
+    ports:
+    - containerPort: 8080
+      protocol: TCP
+
